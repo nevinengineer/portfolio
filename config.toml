@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "John Nevin"
+homepage = "Home"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -65,7 +66,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "About Me"
     url = "about-hugo/"
     weight = 10
 
