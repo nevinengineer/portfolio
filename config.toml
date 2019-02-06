@@ -52,25 +52,34 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
-
-  [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/nevinengineer/"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/john-nevin/"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/nevin_engineer/"
 
 [menu]
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Experience"
+    url = "experience/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 30
 
   [[menu.main]]
     name = "Posts"
     url = "posts/"
-    weight = 10
-
-  [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20
+    weight = 40
