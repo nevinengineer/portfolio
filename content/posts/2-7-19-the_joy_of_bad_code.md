@@ -15,7 +15,7 @@ If you are anything like me, you may be so bold as to scoff and wonder ***who ac
 
 Before you jump to any conclusions that I am defending lazy coding habits and anti-patterns, lets first look into what should be classified as truly "bad code" 
 
-## The Earmarks of "Bad Code"
+## The earmarks of "bad code"
 
 As a developer in the wild world some have dubbed "Enterprise Software" I have had the distinct displeasure of inheriting a less-than-stellar codebase written by another company.
 And by less-than-stellar, I mean heinously poor. 
@@ -29,17 +29,13 @@ In no particular order of poor taste, I'm talking
 * Awful variable names 
 (IMHO, one letter variable names are only okay for iterator *i* )
 * Mix of cases
-(camels and snakes in the same class? Even Noah kept them separate on the Ark!)
+(camels and snakes in the same class? Even Noah kept them separate!)
 * NO comments or a STITCH of documentation
 (Want to know what the developer who wrote it was thinking? Good luck!)
 
 Yeah really, it is like a case-study in how ***not*** to code.
 
 My fellow developers were joking that whoever wrote this monstrosity also used **git commit -m "changes"** when pushing code!
-
-
-
-
 
 
 > An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe, and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.[^1]
