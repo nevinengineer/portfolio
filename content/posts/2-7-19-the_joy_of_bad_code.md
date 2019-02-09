@@ -24,23 +24,22 @@ Listen, a large portion of it could be straight out of [r/ProgrammingHorror](htt
 In no particular order of poor taste, I'm talking:
 
 ###  * Global variables<br/>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seriously, if you think you need one, you probably DO NOT.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>Seriously, if you think you need one, you probably DO NOT.</div>
 
 ### * Enigmatic variable names<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMHO, one letter variable names are only okay for iterator *i* 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>IMHO, one letter variable names are only okay for iterator *i*</div> 
 
 ### * Mix of cases<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;camelCase and snake_case in the same function? More like ***dys***function!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>camelCase and snake_case in the same function? More like ***dys***function!</div>
 
 ### * Poor code reuse <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rewriting the *same. exact. function.* across different programs. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>Rewriting the *same. exact. function.* across different programs.</div> 
 
 ### * ***No*** comments or a ***stitch*** of documentation<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Want to know what the original author was thinking? Good luck!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>(Want to know what the original author was thinking? Good luck!)</div>
 
-Yeah really, it is like a case-study in how ***not*** to code.
+This is like a case-study in how ***not*** to code.
 
-<br/>
 I joked with my fellow devs that the OG authors probably pushed to source with
 ```bash
 git commit -m "changes"
