@@ -11,7 +11,7 @@ tags:
 ## How can you put *joy* and *bad* in the same sentence?
 
 From any developer's point of view, bad code brings nothing but frustration, confusion and makes our inner-perfectionists cringe.
-If you are anything like me, you may be so bold as to scoff and wonder ***who actually got paid to write this?"
+If you are anything like me, you may be so bold as to scoff and wonder ***"who actually got paid to write this?"***
 
 Before you jump to any conclusions that I am defending lazy coding habits and anti-patterns, lets first look into what should be classified as truly "bad code" 
 
@@ -22,20 +22,27 @@ And by less-than-stellar, I mean heinously poor.
 Okay I'll stop sugar coating it. I have straight up told my boss it is ***hot garbage.***
 Listen, a large portion of it was straight out or r/CodingHorror.
 
-In no particular order of poor taste, I'm talking
+In no particular order of poor taste, I'm talking:
 
-* Global Variables 
-(seriously, if you think you need one, you probably DO NOT)
-* Awful variable names 
-(IMHO, one letter variable names are only okay for iterator *i* )
-* Mix of cases
-(camels and snakes in the same class? Even Noah kept them separate!)
-* NO comments or a STITCH of documentation
-(Want to know what the developer who wrote it was thinking? Good luck!)
+###  * Global Variables<br/>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seriously, if you think you need one, you probably DO NOT
+
+### * Awful variable names<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMHO, one letter variable names are only okay for iterator *i* 
+
+### * Mix of cases<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;camelCase and snake_case in the same function? More like ***dys***function!
+
+### * ***No*** comments or a ***stitch*** of documentation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Want to know what the developer who wrote it was thinking? Ha!)
 
 Yeah really, it is like a case-study in how ***not*** to code.
 
-My fellow developers were joking that whoever wrote this monstrosity also used **git commit -m "changes"** when pushing code!
+I joked with my fellow devs that the OG author pushed to source with
+```bash
+git commit -m "changes"
+```
+***P.S.*** If you found that funny, congrats! Yout get *git* (get it? ha ha ha... )
 
 
 > An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe, and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.[^1]
