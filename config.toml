@@ -66,7 +66,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   
   [[params.social]]
     name = "email"
-    url = "https://twitter.com/nevin_engineer/"
+    url = "mailto:jdn1995@gmail.com"
 
 [menu]
   [[menu.main]]
