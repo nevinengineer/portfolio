@@ -3,102 +3,71 @@ author: "John Nevin"
 date: 2019-02-07
 title: The Joy of Bad Code
 tags: 
-  - python
-  - improvement
-  - business
+  - Coding horror
+  - Improvement
+  - Python
 ---
-
+### <u>Part 1</u>
 ## How can you put *joy* and *bad* in the same sentence?
 
 From any developer's point of view, bad code brings nothing but frustration, confusion and makes our inner-perfectionists cringe.
 If you are anything like me, you may be so bold as to scoff and wonder ***"who actually got paid to write this?"***
 
-Before you jump to any conclusions that I am defending lazy coding habits and anti-patterns, lets first look into what should be classified as truly "bad code" 
+Before you jump to any conclusions that I'll be defending lazy coding habits and anti-patterns, lets first look into what should be classified as truly "bad code" 
 
 ## The earmarks of "bad code"
 
 As a developer in the wild world some have dubbed "Enterprise Software" I have had the distinct displeasure of inheriting a less-than-stellar codebase written by another company.
-And by less-than-stellar, I mean heinously poor. 
-Okay I'll stop sugar coating it. I have straight up told my boss it is ***hot garbage.***
-Listen, a large portion of it was straight out or r/CodingHorror.
+I'll stop sugar-coating it. There is some straight-up ***hot garbage.***<br/>
+Listen, a large portion of it could be straight out of [r/ProgrammingHorror](https://www.reddit.com/r/programminghorror/).
 
 In no particular order of poor taste, I'm talking:
 
-###  * Global Variables<br/>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seriously, if you think you need one, you probably DO NOT
+###  * Global variables<br/>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seriously, if you think you need one, you probably DO NOT.
 
-### * Awful variable names<br/>
+### * Enigmatic variable names<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMHO, one letter variable names are only okay for iterator *i* 
 
 ### * Mix of cases<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;camelCase and snake_case in the same function? More like ***dys***function!
 
+### * Poor code reuse <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rewriting the *same. exact. function.* across different programs. 
+
 ### * ***No*** comments or a ***stitch*** of documentation<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Want to know what the developer who wrote it was thinking? Ha!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Want to know what the original author was thinking? Good luck!)
 
 Yeah really, it is like a case-study in how ***not*** to code.
 
-I joked with my fellow devs that the OG author pushed to source with
+<br/>
+I joked with my fellow devs that the OG authors probably pushed to source with
 ```bash
 git commit -m "changes"
 ```
 ***P.S.*** If you found that funny, congrats! Yout get *git* (get it? ha ha ha... )
 
+## The real kicker
+Saving the best (or worst) for last?
 
-> An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe, and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.[^1]
+Our codebase is written in ***Python.***
+
+In case you are unfamiliar with the language, Python has very strong opinions on how code should be styled (thank you, [PEP8](https://www.python.org/dev/peps/pep-0008/)) and designed (keep it [D.R.Y](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)).<br/>
+
+In fact, ***Pythonic*** is a real adjective to describe adherence to Python's principles.
+
+Our codebase was about as un-Pythonic as you can get. This is especially egregious since Python's conventions emphasize readability, clarity and maintainability!
+
+Messy Java? Forgiveable; its a big, verbose language. 
+
+Messy Python? Beg for mercy on your reputation. 
+
+**TL;DR:**
+Vented about a poorly written codebase.
+Listed telltale signs of bad coding practices.
+Extolled the virtues of Python's principles.
+<div ALIGN=CENTER>
+**[[Part 2]](http://localhost:1313/posts/the-figure-shortcode/)**
+</div>
 
 ---
-
-Inline styles：
-
-**strong**, *emphasis*, ***strong and emphasis***,`code`, <u>underline</u>, ~~strikethrough~~, :joy:🤣, $\LaTeX$, X^2^, H~2~O, ==highlight==, [Link](https://example.com), and image:
-
-![img](https://picsum.photos/600/400/?random)
-
----
-
-Headings:
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-Table:
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ | :-------------: | ------------: |
-| col 3 is      | some wordy text |         $1600 |
-| col 2 is      |    centered     |           $12 |
-| zebra stripes |    are neat     |            $1 |
-
-Lists:
-
-* Unordered list item 1.
-* Unordered list item 2.
-
-1. ordered list item 1.
-2. ordered list item 2.
-   + sub-unordered list item 1.
-   + sub-unordered list item 2.
-     + [x] something is DONE.
-     + [ ] something is NOT DONE.
-
-Syntax Highlighting:
-
-```javascript
-var num1, num2, sum
-num1 = prompt("Enter first number")
-num2 = prompt("Enter second number")
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert("Sum = " + sum)  // "+" means combine into a string
-```
-
-[^1]: From https://en.wikipedia.org/wiki/Apple
