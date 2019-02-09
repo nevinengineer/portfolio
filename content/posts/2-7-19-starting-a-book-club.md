@@ -1,7 +1,7 @@
 ---
-author: "Michael Henderson"
-date: 2014-09-28
-title: Creating a New Theme
+author: "John Nevin"
+date: 2019-02-07
+title: Starting a Book Club
 ---
 
 ## Introduction
